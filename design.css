@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-attachment: fixed;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+.header {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main1 {
+    display: flex;
+    gap: 25px;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.haveanac {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 200;
+    border: none;
+}
+
+.ID {
+    display: block;
+    padding: 20px;
+    height: 10px;
+    width: 370px;
+    border: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 15px;
+    color: white;
+    border-radius: 30px;
+}
+
+.ID::placeholder,
+.PW::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.PW {
+    display: block;
+    padding: 20px;
+    height: 10px;
+    width: 370px;
+    border: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 15px;
+    color: white;
+    border-radius: 30px;
+}
+
+.Signin {
+    display: flex;
+    flex-direction: flex-end;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 410px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: rgba(236, 222, 222, 0.85);
+    border: 1px solid silver;
+    border-radius: 30px;
+}
+
+.main2 {
+    display: flex;
+    gap: 80px;
+    flex-direction: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+
+.main3 {
+    display: flex;
+    margin: 20px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.Remember {
+    display: flex;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.lostpassword {
+    display: flex;
+    flex-direction: flex-end;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 33px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+}
+
+.Facebook {
+    display: flex;
+    flex-direction: flex-end;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 53px;
+    width: 215px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.Twitter {
+    display: flex;
+    flex-direction: flex-end;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 53px;
+    width: 215px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
